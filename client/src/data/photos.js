@@ -172,8 +172,8 @@ export const photos = [
   },
   {
     id: 20,
-    src: '/images/微信图片_202306071335334.jpg',
-    thumbnail: '/images/微信图片_202306071335334.jpg',
+    src: '/images/weixin_202306071335334.jpg',
+    thumbnail: '/images/weixin_202306071335334.jpg',
     decade: '2020s',
     year: 2026,
     title: '三十年的微笑',
