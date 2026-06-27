@@ -54,9 +54,10 @@ export default function PhotoModal({ photo, onClose }) {
               {photo.title}
             </h3>
           </div>
-          <p className="text-soft-brown leading-relaxed text-base">
+          {/* TODO: 待补充故事详情 */}
+          {/* <p className="text-soft-brown leading-relaxed text-base">
             {photo.story}
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

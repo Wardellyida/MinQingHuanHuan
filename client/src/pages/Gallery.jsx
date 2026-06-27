@@ -3,7 +3,7 @@ import { photos } from '../data/photos'
 import PhotoModal from '../components/PhotoModal'
 
 const decades = [
-  { key: 'all', label: '全部', emoji: '📷' },
+  // { key: 'all', label: '全部', emoji: '📷' },
   { key: '1990s', label: '90年代', emoji: '🌱' },
   { key: '2000s', label: '00年代', emoji: '🌿' },
   { key: '2010s', label: '10年代', emoji: '🌳' },
@@ -71,7 +71,7 @@ export default function Gallery() {
                   />
                 </div>
                 <div className="p-5">
-                  <div className="flex items-center gap-2 mb-2">
+                  {/* <div className="flex items-center gap-2 mb-2">
                     <span className="text-xs font-medium px-2.5 py-1 bg-warm-wood/10 text-warm-brown rounded-full">
                       {photo.year}
                     </span>
@@ -81,7 +81,7 @@ export default function Gallery() {
                   </h3>
                   <p className="text-sm text-soft-brown line-clamp-2 leading-relaxed">
                     {photo.story}
-                  </p>
+                  </p> */}
                   <div className="mt-3 flex items-center text-xs text-warm-wood/60">
                     <span>点击放大查看</span>
                     <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
